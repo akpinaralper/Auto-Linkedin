@@ -15,11 +15,11 @@ Biliyorsunuz LinkedIn'de binlerce ilan var ama hangisi bize tam uyuyor bulmak sa
 
 ##  Neler Yapabiliyor?
 
-* ** CSV ile Çalışır:** LinkedIn'den çektiğin veya elindeki iş ilanı veri setini (CSV) şak diye yüklersin.
-* ** Serbest Profil Girişi:** "Python biliyorum, 2 yıl tecrübem var, AWS de kullandım" gibi kendini anlatan metni girersin.
-* ** Akıllı Eşleştirme:** Arka planda **TF-IDF** ve **Cosine Similarity** çalıştırıyoruz. Yani sadece kelimeye bakmıyor, metin benzerliği kurup en mantıklı olanları puanlıyor.
+* **CSV ile Çalışır:** LinkedIn'den çektiğin veya elindeki iş ilanı veri setini (CSV)  yükle
+* **Serbest Profil Girişi:** "Python biliyorum, 2 yıl tecrübem var, AWS de kullandım" gibi kendini anlatan metni gir
+* **Akıllı Eşleştirme:** Arka planda **TF-IDF** ve **Cosine Similarity** çalıştırıyoruz. Yani sadece kelimeye bakmıyor, metin benzerliği kurup en mantıklı olanları puanlıyor.
 * **dark Mode Sevenlere:** Gözümüz yorulmasın diye arayüzü koyu tema (Dark Theme) yaptık.
-* ** Tek Tıkla Başvuru:** İlanı beğendiysen program içinden direkt tarayıcıda açıp başvurabilirsin.
+* **Tek Tıkla Başvuru:** İlanı beğendiysen program içinden direkt tarayıcıda açıp başvurabilirsin.
 
 ---
 
@@ -27,19 +27,18 @@ Biliyorsunuz LinkedIn'de binlerce ilan var ama hangisi bize tam uyuyor bulmak sa
 
 Projeyi geliştirirken **Scrum** taktikleri uyguladık, 3 sprint koştuk ve şu teknolojileri kullandık:
 
-* **Python:** Olmazsa olmazımız 
+* **Python:** 
 * **PyQt5:** Masaüstü arayüzünü (GUI) bununla tasarladık.
 * **Pandas:** O kadar veriyi, CSV dosyasını evirip çevirmek, temizlemek için.
-* **Scikit-learn:** İşin büyüsü burada. Metinleri vektöre çevirip (TF-IDF) benzerlik hesaplamak (Cosine Similarity) için kullandık.
+* **Scikit-learn:** Metinleri vektöre çevirip (TF-IDF) benzerlik hesaplamak (Cosine Similarity) için kullandık.
 
 ---
 
 
 
 
-## 📸 Ekran Görüntüleri
+##  Ekran Görüntüleri
 
-Uygulamamızdan birkaç kare:
 <img width="601" height="377" alt="Ekran görüntüsü 2025-12-15 003450" src="https://github.com/user-attachments/assets/15186540-4180-49ed-8765-3670f22e1cd7" />
 <img width="604" height="381" alt="Ekran görüntüsü 2025-12-15 003515" src="https://github.com/user-attachments/assets/cc59cafd-681c-417b-a5f0-ab3f78c97d92" />
 <img width="598" height="375" alt="Ekran görüntüsü 2025-12-15 003533" src="https://github.com/user-attachments/assets/370ce132-53ea-4033-859c-02f0e9b0ef11" />
@@ -48,7 +47,7 @@ Uygulamamızdan birkaç kare:
 
 
 
-##  Ekip (Credits)
+##  Ekip 
 
 Bu projeyi BİL403 dersi için şu ekip geliştirdi:
 
